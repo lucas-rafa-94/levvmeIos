@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE9179B120603E7B00509734 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9179B020603E7B00509734 /* CustomTextField.swift */; };
+		DE9179B3206046B000509734 /* Historico.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9179B2206046B000509734 /* Historico.swift */; };
+		DE9179B5206049E400509734 /* HistoricoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9179B4206049E400509734 /* HistoricoCell.swift */; };
+		DE9179B72060575600509734 /* PerfilCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9179B62060575600509734 /* PerfilCell.swift */; };
+		DE9179B92060582A00509734 /* PerfilConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9179B82060582A00509734 /* PerfilConfig.swift */; };
 		DEE9CE72205FE96C0030E42D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE9CE71205FE96C0030E42D /* AppDelegate.swift */; };
-		DEE9CE74205FE96C0030E42D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE9CE73205FE96C0030E42D /* ViewController.swift */; };
+		DEE9CE74205FE96C0030E42D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE9CE73205FE96C0030E42D /* LoginViewController.swift */; };
 		DEE9CE77205FE96C0030E42D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE9CE75205FE96C0030E42D /* Main.storyboard */; };
 		DEE9CE79205FE96C0030E42D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE9CE78205FE96C0030E42D /* Assets.xcassets */; };
 		DEE9CE7C205FE96C0030E42D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE9CE7A205FE96C0030E42D /* LaunchScreen.storyboard */; };
+		DEE9CE862060143F0030E42D /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE9CE852060143F0030E42D /* CadastroViewController.swift */; };
+		DEE9CEA8206018710030E42D /* LevvMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE9CEA7206018710030E42D /* LevvMeViewController.swift */; };
+		DEE9CEAA206018B70030E42D /* HistoricoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE9CEA9206018B70030E42D /* HistoricoViewController.swift */; };
+		DEE9CEAC2060194D0030E42D /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE9CEAB2060194D0030E42D /* PerfilViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE9179B020603E7B00509734 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		DE9179B2206046B000509734 /* Historico.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Historico.swift; sourceTree = "<group>"; };
+		DE9179B4206049E400509734 /* HistoricoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricoCell.swift; sourceTree = "<group>"; };
+		DE9179B62060575600509734 /* PerfilCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilCell.swift; sourceTree = "<group>"; };
+		DE9179B82060582A00509734 /* PerfilConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilConfig.swift; sourceTree = "<group>"; };
 		DEE9CE6E205FE96C0030E42D /* levv.me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = levv.me.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEE9CE71205FE96C0030E42D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DEE9CE73205FE96C0030E42D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEE9CE73205FE96C0030E42D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DEE9CE76205FE96C0030E42D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DEE9CE78205FE96C0030E42D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEE9CE7B205FE96C0030E42D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEE9CE7D205FE96C0030E42D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEE9CE852060143F0030E42D /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
+		DEE9CEA7206018710030E42D /* LevvMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevvMeViewController.swift; sourceTree = "<group>"; };
+		DEE9CEA9206018B70030E42D /* HistoricoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricoViewController.swift; sourceTree = "<group>"; };
+		DEE9CEAB2060194D0030E42D /* PerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +73,18 @@
 			isa = PBXGroup;
 			children = (
 				DEE9CE71205FE96C0030E42D /* AppDelegate.swift */,
-				DEE9CE73205FE96C0030E42D /* ViewController.swift */,
+				DEE9CE73205FE96C0030E42D /* LoginViewController.swift */,
+				DEE9CEA9206018B70030E42D /* HistoricoViewController.swift */,
+				DEE9CE852060143F0030E42D /* CadastroViewController.swift */,
+				DEE9CEA7206018710030E42D /* LevvMeViewController.swift */,
+				DEE9CEAB2060194D0030E42D /* PerfilViewController.swift */,
+				DE9179B62060575600509734 /* PerfilCell.swift */,
+				DE9179B4206049E400509734 /* HistoricoCell.swift */,
 				DEE9CE75205FE96C0030E42D /* Main.storyboard */,
 				DEE9CE78205FE96C0030E42D /* Assets.xcassets */,
+				DE9179B2206046B000509734 /* Historico.swift */,
+				DE9179B82060582A00509734 /* PerfilConfig.swift */,
+				DE9179B020603E7B00509734 /* CustomTextField.swift */,
 				DEE9CE7A205FE96C0030E42D /* LaunchScreen.storyboard */,
 				DEE9CE7D205FE96C0030E42D /* Info.plist */,
 			);
@@ -136,8 +163,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEE9CE74205FE96C0030E42D /* ViewController.swift in Sources */,
+				DE9179B120603E7B00509734 /* CustomTextField.swift in Sources */,
+				DE9179B92060582A00509734 /* PerfilConfig.swift in Sources */,
+				DEE9CE74205FE96C0030E42D /* LoginViewController.swift in Sources */,
 				DEE9CE72205FE96C0030E42D /* AppDelegate.swift in Sources */,
+				DE9179B72060575600509734 /* PerfilCell.swift in Sources */,
+				DEE9CEA8206018710030E42D /* LevvMeViewController.swift in Sources */,
+				DEE9CEAA206018B70030E42D /* HistoricoViewController.swift in Sources */,
+				DEE9CEAC2060194D0030E42D /* PerfilViewController.swift in Sources */,
+				DE9179B5206049E400509734 /* HistoricoCell.swift in Sources */,
+				DE9179B3206046B000509734 /* Historico.swift in Sources */,
+				DEE9CE862060143F0030E42D /* CadastroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +311,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZZTE5DDUSH;
 				INFOPLIST_FILE = levv.me/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.startupone.levv-me";
@@ -289,6 +326,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZZTE5DDUSH;
 				INFOPLIST_FILE = levv.me/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.startupone.levv-me";
